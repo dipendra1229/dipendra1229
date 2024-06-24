@@ -1,0 +1,31 @@
+/* Apply the background image to the entire body */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Coffee2.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Makes the background stay in place when scrolling */
+    background-position: center; /* Center the background image */
+    color: rgb(7, 7, 7); /* Ensure text is readable on the background */
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+
+
+
+
+.border-box {
+    border: 2px solid #000; /* Black border with a thickness of 2 pixels */
+    padding: 20px; /* Adds space between the content and the border */
+    margin: 20px; /* Adds space outside the border */
+    width: 800px; /* Sets the width of the box */
+    height: 800px; /* Sets the height of the box */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    background-color: #c0763d; /* Light gray background color */
+    text-align: center;
+}
